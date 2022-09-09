@@ -1,0 +1,96 @@
+.hero {
+    
+    padding-top: 20px;
+    margin-bottom: 80px;
+    
+    &__container {
+        position: relative;
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    &__left {
+        max-width: 608px;
+        width: 100%;
+    }
+    
+    &__heading {
+        font-family: 'Questrial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 55px;
+        line-height: 66px;
+        color: #111111;
+        margin-bottom: 14px;
+    }
+    
+    &__dec {
+        color: #272ECB;
+    }
+    
+    &__text {
+        max-width: 400px;
+        width: 100%;
+        font-family: 'Questrial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        color: #111111;
+        opacity: 0.48;
+        margin-bottom: 47px;
+    }
+    
+    &__btn {
+        font-family: 'Questrial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 19px;
+        color: #FFFFFF;
+        background: #272ECB;
+        border-radius: 4px;
+        padding: 12px 44px;
+    }
+    
+    &__right {
+        padding: 257px 192px;
+        background-image: url('./../img/inno-bg.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 460px 589px;
+    }
+    
+    &__youtube-link {
+        width: 76px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    &__play-img {
+        width: 76px;
+        height: 76px;
+        object-fit: contain;
+    }
+}
+
+.global2 {
+    position: absolute;
+    top: 0;
+    right: calc(50% - 25%);
+    z-index: -10;
+    animation: rotation 30s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }

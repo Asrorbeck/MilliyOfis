@@ -1,0 +1,29 @@
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a,ul,li,h1,h2,h3,h4,h5,h6,p, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+button {
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+
+button:active {
+    opacity: 0.6;
+}

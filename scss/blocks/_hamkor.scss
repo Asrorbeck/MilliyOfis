@@ -1,0 +1,38 @@
+.hamkor {
+    margin-bottom: 100px;
+    
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    &__header {
+        font-family: 'Questrial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 52px;
+        line-height: 62px;
+        letter-spacing: -0.94px;
+        color: #191919;
+    }
+    
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 103px;
+    }
+    
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 55px;
+    }
+    
+    &__top {
+    }
+    
+    &__bottom {
+    }
+}

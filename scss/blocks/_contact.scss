@@ -1,0 +1,80 @@
+.contact {
+    margin-bottom: 100px;
+    
+    &__heading {
+        font-family: 'Questrial';
+        font-weight: 400;
+        font-size: 52px;
+        line-height: 62px;
+        text-align: center;
+        letter-spacing: -0.94px;
+        color: #191919;
+        margin-bottom: 50px;
+    }
+    
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    &__list {
+        margin-left: 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    &__item {
+        max-width: 235px;
+        width: 100%;
+        position: relative;
+        &::before {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: #E7EBFC;
+            top: 50%;
+            transform: translateY(-50%);
+            right: calc(100% + 20px);
+            background-image: url('./../../img/call.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        &:nth-child(2)::before {
+            background-image: url('./../../img/location.svg');
+        }
+
+        &:nth-child(3)::before {
+            background-image: url('./../../img/clock.svg');
+        }
+
+        &:nth-child(4)::before {
+            background-image: url('./../../img/sms.svg');
+        }
+    }
+    
+    &__item-heading {
+        font-family: 'Questrial';
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 62px;
+        letter-spacing: -0.94px;   
+        color: #272ECB;
+    }
+    
+    &__item-text {
+        font-family: 'Questrial';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: #000000;
+    }
+    
+    &__map {
+        border-radius: 10px;
+    }
+}

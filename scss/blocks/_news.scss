@@ -1,0 +1,66 @@
+.news {
+    margin-bottom: 100px;
+    
+    &__heading {
+        font-family: 'Questrial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 52px;
+        line-height: 62px;
+        text-align: center;
+        letter-spacing: -0.94px;
+        color: #191919;
+        margin-bottom: 40px;
+    }
+    
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    &__item {
+        max-width: 370px;
+        width: 100%;
+        transition: all 0.3s ease;
+    }
+
+    &__item:hover {
+        transform: scale(1.05);
+    }
+
+    &__img {
+        max-width: 370px;
+        object-fit: contain;
+        margin-bottom: 26px;
+    }
+    
+    &__category {
+        font-family: 'Questrial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        color: #000000;
+        margin-bottom: 15px;
+    }
+    
+    &__title {
+        font-family: 'Questrial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: #000000;
+        margin-bottom: 15px;
+    }
+    
+    &__date {
+        font-family: 'Questrial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: rgba(0, 0, 0, 0.64);
+    }
+}
